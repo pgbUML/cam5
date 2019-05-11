@@ -14,8 +14,7 @@ html, body{
 
 
 #camera--view, #camera--sensor, #camera--output{
-    transform: scaleX(2.0);
-  
+    transform: scaleX(-1);
     /*filter: FlipH;*/
 }
 
