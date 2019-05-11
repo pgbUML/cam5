@@ -6,7 +6,8 @@ var track = null;
 const cameraView = document.querySelector("#camera--view"),
     cameraOutput = document.querySelector("#camera--output"),
     cameraSensor = document.querySelector("#camera--sensor"),
-    cameraTrigger = document.querySelector("#camera--trigger");
+    cameraTrigger = document.querySelector("#camera--trigger"),
+    locationTag = document.querySelector("#location--tag");
 
 // Access the device camera and stream to cameraView
 function cameraStart() {
@@ -30,7 +31,9 @@ cameraTrigger.onclick = function() {
     cameraOutput.classList.add("taken");
     // track.stop();
 };
-
+locationTag.onclick = function() {
+    alert("what?");
+};
 // Start the video stream when the window loads
 window.addEventListener("load", cameraStart, false);
 
