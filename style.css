@@ -34,10 +34,10 @@ html, body{
     left: calc(50% - 100px);
 }
 #location--tag{
-    width: 200px;
+    width: 400px;
     background-color: black;
     color: white;
-    font-size: 16px;
+    font-size: 9px;
     border-radius: 30px;
     border: none;
     padding: 15px 20px;
