@@ -34,7 +34,7 @@ html, body{
     left: calc(50% - 100px);
 }
 #location--tag{
-    width: 400px;
+    width: 250px;
     background-color: gray;
     color: white;
     font-size: 9px;
